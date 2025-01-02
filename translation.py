@@ -53,7 +53,6 @@ ABOUT_TEXT = """
 `🌐 Source Code:` [GitHub](https://github.com/kevinnadar22/URL-Shortener-V2/)
 """
 
-
 METHOD_MESSAGE = """
 Current Method: {method}
     
@@ -74,24 +73,20 @@ This feature works only in private mode only
 
 Ex: https://t.me/example | Example"""
 
-
 ADMINS_MESSAGE = """
 List of Admins who has access to this Bot
 
 {admin_list}
 """
 
-
 CHANNELS_LIST_MESSAGE = """
 Here is a list of the channels:
 
 {channels}"""
 
-
 HELP_REPLY_MARKUP = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Methods", callback_data="method_command"),
             InlineKeyboardButton("Batch", callback_data="cbatch_command"),
         ],
         [
@@ -100,19 +95,15 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("Channels", callback_data="channels_list"),
-            InlineKeyboardButton("Home", callback_data="start_command"),
         ],
     ]
 )
-
 
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton("Home", callback_data="start_command"),
-            InlineKeyboardButton("Help", callback_data="help_command"),
         ],
-        [InlineKeyboardButton("Close", callback_data="delete")],
     ]
 )
 
@@ -121,10 +112,6 @@ START_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup(
         [
             InlineKeyboardButton("Help", callback_data="help_command"),
             InlineKeyboardButton("About", callback_data="about_command"),
-        ],
-        [
-            InlineKeyboardButton("Method", callback_data="method_command"),
-            InlineKeyboardButton("Close", callback_data="delete"),
         ],
     ]
 )
@@ -139,10 +126,6 @@ METHOD_REPLY_MARKUP = InlineKeyboardMarkup(
                 "Shortener", callback_data="change_method#shortener"
             ),
             InlineKeyboardButton("Mdisk", callback_data="change_method#mdisk"),
-        ],
-        [
-            InlineKeyboardButton("Back", callback_data="help_command"),
-            InlineKeyboardButton("Close", callback_data="delete"),
         ],
     ]
 )
@@ -172,7 +155,6 @@ USER_ABOUT_MESSAGE = """
 
 🖼️ Banner image: {banner_image}
 """
-
 
 MDISK_API_MESSAGE = """To add or update your Mdisk API, \n`/mdisk_api mdisk_api`
             
@@ -232,7 +214,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://www.nicepng.com/png/detail/436-4369539_movie-logo-film.png`"""
+Eg: `/banner_image https://www.nicepng.com/png/detail/436-4369539_movie-logo-film.png"""
 
 INCLUDE_DOMAIN_TEXT = """
 Use this option if you want to short only links from the following domains list.
