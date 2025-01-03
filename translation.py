@@ -34,7 +34,7 @@ HELP_MESSAGE = """Hey there! My name is {firstname} and I'm a link convertor and
 
 I have a ton of handy features to help you out, such as:
 
-To add or update your Get2Short API, \n`/Get2Short_api Get2Short_api`
+To add or update your Get2Short API, \n`/ `
             
 Ex: `/Get2Short_api 6LZq851s*********`
             
