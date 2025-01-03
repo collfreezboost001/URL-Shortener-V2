@@ -38,7 +38,7 @@ To add or update your Get2Short API, \n`/ `
             
 Ex: `/Get2Short_api 6LZq851s*********`
             
-Others Get2Short Links will be automatically changed to the API of this Get2Short account
+ Get2Short Links will be automatically changed to the API of this Get2Short account
 
 Get your Get2Short API from get2short.com/member/tools/api
 
