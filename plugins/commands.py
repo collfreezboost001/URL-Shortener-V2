@@ -21,7 +21,6 @@ from utils import extract_link, get_me_button, get_size
 logger = logging.getLogger(__name__)
 
 user_commands = [
-    "mdisk_api",
     "shortener_api",
     "header",
     "footer",
