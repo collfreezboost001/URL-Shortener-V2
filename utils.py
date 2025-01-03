@@ -380,6 +380,7 @@ async def create_server():
 async def set_commands(app):
     COMMANDS = [
         BotCommand("start", "Used to start the bot."),
+        BotCommand("start", "For Api."),
         BotCommand("help", "Displays the help command."),
         BotCommand("about", "Displays information about the bot."),
         BotCommand("stats", "Displays statistics of the server and bot."),
