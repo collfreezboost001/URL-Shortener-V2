@@ -157,7 +157,6 @@ async def stats_handler(c: Client, m: Message):
         total_users = await total_users_count()
 
         msg = f"""
-**- Total Users:** `{total_users}`
 **- Total Posts Sent:** `{link_stats['posts']}`
 **- Total Links Shortened:** `{link_stats['links']}`
 **- Total Shortener Links Shortened:** `{link_stats['shortener_links']}`
