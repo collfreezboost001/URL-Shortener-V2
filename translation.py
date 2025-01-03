@@ -26,8 +26,6 @@ If You Want To Earn Money By Using This Bot Then Sign Up
 https://get2short.com You Will Get 9$ CPM On This Site And 
 Get 10% Referral Earning For Life Time.
 
-Method: {}
-Shortener website: {}
 """
 
 HELP_MESSAGE = """Hey there! My name is {firstname} and I'm a link convertor and shortener bot here to make your work easier and help you earn more 💰.
