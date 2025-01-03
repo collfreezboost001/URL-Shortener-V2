@@ -17,7 +17,6 @@ START_MESSAGE = """Hi there {}
 
 If You Want To convert Any Link Then Send It To Me And I Will Do It
 
-/api - Connect API
 /help - For More Info 
 
 This is a @Get2short Official Link Convertor Bot
