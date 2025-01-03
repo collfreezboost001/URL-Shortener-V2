@@ -13,9 +13,18 @@ I'll handle the rest and get those links shortened or converted in a short time!
 
 START_MESSAGE = """Hi there {} 
 
-Send me a link or post and I'll shorten it for you!
+🥰 Welcome to @get2short - Link convertor Bot. 
 
-To learn more about what I can do, just type /help.
+If You Want To convert Any Link Then Send It To Me And I Will Do It
+
+/api - Connect API
+/help - For More Info 
+
+This is a @Get2short Official Link Convertor Bot
+
+If You Want To Earn Money By Using This Bot Then Sign Up 
+https://get2short.com You Will Get 9$ CPM On This Site And 
+Get 10% Referral Earning For Life Time.
 
 Method: {}
 Shortener website: {}
@@ -25,20 +34,18 @@ HELP_MESSAGE = """Hey there! My name is {firstname} and I'm a link convertor and
 
 I have a ton of handy features to help you out, such as:
 
-- [Hyperlink](https://t.me/{username}) support 🔗
-- Button conversion support 🔘
-- Domain inclusion and exclusion options 🌐
-- Header and footer text support 📝
-- Replace username function 📎
-- Banner image support 🖼️
-- Batch conversion for channel admins only 📊
-- Channel support for admins only 📢
+To add or update your Get2Short API, \n`/Get2Short_api Get2Short_api`
+            
+Ex: `/Get2Short_api 6LZq851s*********`
+            
+Others Get2Short Links will be automatically changed to the API of this Get2Short account
+
+Get your Get2Short API from get2short.com/member/tools/api
 
 Useful commands:
 
 - /start: Start me up! You probably already used this.
 - /help: Send this message; I'll tell you more about myself!
-- /batch -100xxx: To shorten or convert all posts in your channel
 """
 
 ABOUT_TEXT = """
@@ -46,11 +53,22 @@ ABOUT_TEXT = """
 
 `🤖 Name:` ** {} **
     
-`📝 Language:` [Python 3](https://www.python.org/)
-`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/ask_admin001)
-`📢 Support:` [Talk Bot](https://t.me/ask_admin001)
-`🌐 Source Code:` [GitHub](https://github.com/kevinnadar22/URL-Shortener-V2/)
+✅ 1. Easy Link Management
+Long URLs ko short aur clean format me convert karne se aap apne links ko easily manage kar sakte hain.
+
+✅ 2. Paise Kamane Ka Mauka
+Jo log apna content frequently share karte hain (bloggers, YouTubers, influencers), unke liye yeh ek best platform hai paise kamaane ka. Har 1000 clicks par $9 ki earning kaafi attractive offer hai.
+
+✅ 3. Detailed Analytics
+Get2Short.com users ko link clicks ka detailed analytics bhi provide karta hai jisme aap dekh sakte hain ki aapka link kab, kahan, aur kitne logon ne click kiya.
+
+✅ 4. Secure & Reliable
+Website secure hai aur users ka data safe rakha jata hai.
+
+✅ 5. Easy Withdrawals
+Jab bhi aap minimum payout threshold par pahuch jate hain, aap apni earnings ko asani se withdraw kar sakte hain.
+
+`📢 Support:` [For More Info](https://t.me/Get2ShortOwner)
 """
 
 METHOD_MESSAGE = """
@@ -58,11 +76,11 @@ Current Method: {method}
     
 Methods Available:
 
-> `mdlink` - Change all the links of the post to your MDisk account first and then short to {shortener} link.
+> `Get2Short` - Change all the links of the post to your Get2Short account first and then short to {shortener} link.
 
-> `shortener` - Short all the links of the post to {shortener} link directly.
+> `Get2Short` - Short all the links of the post to {shortener} link directly.
 
-> `mdisk` - Save all the links of the post to your Mdisk account.
+> `Get2Short` - Save all the links of the post to your Get2Short account.
     
 To change method, choose it from the following options:
 """
